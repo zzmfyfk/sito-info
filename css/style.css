@@ -197,89 +197,27 @@ input[type="submit"] {
   border-radius: 20px;
 }
 
-.projects .project:nth-child(4) .project-details {
-    display: none;
-}
-
-/* Image */
-.projects .project:nth-child(4) img {
+#projects .projects .project:nth-child(4) {
     display: none;
 }
 
 /* Project card */
-.projects .project .project-card {
-    height: 478px;
+#contenuto #projects .projects .project .project-card {
+    height: 455px !important;
 }
 
-/* Image */
-.projects .project img {
-    height: 289px;
-}
-
-/* Project card */
-.projects .project:nth-child(4) .project-card {
-    display: none;
-}
-
-/* Container */
-#intro .container {
-    z-index: 2;
-    position: relative;
-    top: 47px;
-}
-
-#projects .container {
-    transform: translatex(0px) translatey(0px);
-    float: none;
-    position: relative;
-    top: 180px;
-}
-
-/* Project */
-#projects .project {
-    position: static;
-}
-
-/* Heading */
-#projects h2 {
-    margin-bottom: 0px;
-    height: 0px;
-    width: 950px;
-    margin-right: 70px;
-    position: relative;
-    top: -56px;
-    left: 72px;
-}
-
-/* Projects */
-#projects {
-    transform: translatex(0px) translatey(0px);
-    min-height: 711px;
-}
-
-/* Footer */
-footer {
-    position: fixed;
-    top: 90%;
-    display: inline-block;
-}
-
-    /* Container */
-    footer .container {
-        position: relative;
-        top: 0%;
+    /* Image */
+    #contenuto #projects .projects .project .project-card .project-image img {
+        height: 251px !important;
     }
 
-/* Project card */
-#projects .project .project-card {
-    height: 386px;
-}
+@media (min-width:481px) {
 
-/* Image */
-#projects .project img {
-    height: 251px;
+    /* Container */
+    #intro .container {
+        display: none;
+    }
 }
-
 /*
 section {
   border: 5 solid #ccc;
